@@ -1,7 +1,11 @@
 import React from "react";
 
 const Recordings = () => {
-  return <div>Recordings</div>;
+  return (
+    <section className="text-white flex size-full flex-col gap-10">
+      <h1 className="text-3xl font-bold">Recordings</h1>
+    </section>
+  );
 };
 
 export default Recordings;
